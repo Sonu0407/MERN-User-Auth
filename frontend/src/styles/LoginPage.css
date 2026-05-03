@@ -1,0 +1,143 @@
+.login-container {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box model */
+  height: 100vh;
+  /* styling */
+  color: white;
+  /* extras */
+}
+
+.login-container h1 {
+  /* layout */
+  display: flex;
+  /* box model */
+  margin: 10px;
+  padding: 5px;
+  /* styling */
+  font-size: 3rem;
+  font-weight: 600;
+  /* extras */
+  transition: 0.3s;
+}
+
+.login-container h1:hover {
+  margin: 0;
+  padding: 0;
+}
+
+.login-form {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  /* box model */
+  height: 340px;
+  width: 350px;
+  padding: 20px;
+  margin: 10px;
+  /* styling */
+  background: rgba(255, 255, 255, 0.04);
+  /* border: 2px solid white; */
+  /* extras */
+  backdrop-filter: blur(18px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-form-email {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* box model */
+  width: 100%;
+  /* styling */
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(200, 200, 200);
+  /* extras */
+}
+
+.login-form-email input {
+  /* layout */
+  /* box model */
+  height: 35px;
+  width: 98%;
+  padding-left: 5px;
+  /* styling */
+  border-radius: 2px;
+  background-color: rgb(242, 242, 242);
+  /* extras */
+  border: none;
+  transition: 0.3s;
+}
+
+.login-form-email input:focus {
+  outline: none;
+  transform: scale(1.02);
+}
+
+.login-actions {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  /* box model */
+  width: 100%;
+  /* styling */
+  /* border: 2px solid white; */
+  /* extras */
+}
+
+.login-actions button {
+  /* layout */
+  /* box model */
+  margin-top: 10px;
+  padding: 10px 20px;
+  /* styling */
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  /* extras */
+  border: none;
+}
+
+.login-actions button:hover {
+  color: white;
+  background-color: black;
+  border: 0.5px solid rgba(255, 255, 255, 0.158);
+}
+
+.login-actions h4 {
+  /* border: 2px solid white; */
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 5px;
+  /* box model */
+  height: 30px;
+  padding: 5px;
+  /* styling */
+  font-weight: 400;
+  /* extras */
+}
+
+.login-actions .link {
+  /* layout */
+  /* box model */
+  /* styling */
+  font-weight: 600;
+  color: yellowgreen;
+  text-decoration: none;
+  /* extras */
+}
+/* layout */
+/* box model */
+/* styling */
+/* extras */
