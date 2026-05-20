@@ -12,10 +12,10 @@ const SignUpPage = () => {
 
   const handleSignup = async (e) => {
     e.preventDefault();
-    console.log(firstname); // testing purpose
-    console.log(lastname);
-    console.log(email);
-    console.log(password);
+    // console.log(firstname); // testing purpose
+    // console.log(lastname);
+    // console.log(email);
+    // console.log(password);
 
     // try catch block
     try {

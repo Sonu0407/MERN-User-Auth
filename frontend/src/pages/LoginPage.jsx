@@ -34,7 +34,7 @@ const LoginPage = () => {
         return toast.success(data.message);
       }
 
-      console.log(data);
+      // console.log(data);
     } catch (error) {
       console.log("Error while logging In", error);
       toast.error("Error in logging");
